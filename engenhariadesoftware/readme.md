@@ -12,7 +12,17 @@
 
 ---
 
-## 3 Exemplos de *Trade-offs*
+## 3. Requisitos não funcionais
+
+1. **Tempo de resposta**: Um aplicativo por vezes pode conversar com outro para obter recursos que não possui, o primeiro envia um *Request* para o segundo, que então processa o pedido, agrupa as informações requisitadas, e retorna-as para o anterior. O tempo necessário para cobrir todo o trajeto, chama-se tempo de resposta, e o aumento dele influência diretamente na satisfação do usuário com o programa.
+2. **Segurança**: Alguns programas exigem do usuário a inserção de caracteres especiais em cadastros de senhas ou informações sensíveis, de modo a garantir uma melhor proteção dos dados.
+3.  **Usabilidade**: Uma interface mais bem detalhada (*User Experience*), com botões interativos e textos em uma qualidade melhor, atraem a atenção dos usuários, que por sua vez podem se tornar clientes.
+4.  **Interoperabilidade**: Um _software_ capaz de interagir com aplicações externas de forma eficiente, como usar protocolos com um tempo de resposta menor.
+5.  **Manutenabilidade**: Softwares que possuem comentários em seus códigos, funções eficientes e nomenclaturas bem definidas de variáveis, acabam por ser mais fáceis de manter ao longo do tempo, aumentando assim a vida útil do software.
+
+---
+
+## 4 Exemplos de *Trade-offs*
 
 1. **Segurança vs. Usabilidade** Entregar um sistema extremamente protegido, em troca de perder UX (*User Experience*).
 2. **Controle vs. Conveniência** Um banco de dados local (*on premises*) e um em nuvem (*Database as a Service*). Por um lado, o gerente tem controle físico total, velocidades de resposta muito altas e previsão de custo; por outro, perde potência em grandes volumes de data e disponibilidade de acesso em diferentes regiões.
