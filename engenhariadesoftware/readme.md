@@ -32,11 +32,11 @@
 
 ## 5 Perguntas e respostas sobre o programa com sintaxe correta, porém lógica errada (j+1 => j-1).
 1.
-  P:
-  R: Não é possível testar cada caso individualmente, pois são 65535 casos de entrada.
+  - P:
+  - R: Não é possível testar cada caso individualmente, pois são 65535 casos de entrada.
 2.
-  P: Quantos erros apontam para o problema de lógica?
-  R: 4
+  - P: Quantos erros apontam para o problema de lógica?
+  - R: 4
 3. 
-  P: Quais são?
-  R: -29999; 29999; -30000; e 30000
+  - P: Quais são?
+  - R: -29999; 29999; -30000; e 30000
