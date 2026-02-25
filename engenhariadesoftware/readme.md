@@ -27,3 +27,16 @@
 1. **Segurança vs. Usabilidade** Entregar um sistema extremamente protegido, em troca de perder UX (*User Experience*).
 2. **Controle vs. Conveniência** Um banco de dados local (*on premises*) e um em nuvem (*Database as a Service*). Por um lado, o gerente tem controle físico total, velocidades de resposta muito altas e previsão de custo; por outro, perde potência em grandes volumes de data e disponibilidade de acesso em diferentes regiões.
 3. **Clean Code vs. Performance** Usar abstrações e padrões de projeto torna o código mais fácil de ler e manter, e em troca, cada camada de abstração consome memória e CPU. Em sistemas críticos (como drivers), o código é "sujo" e manual para recuperar milisegundos de processamento.
+
+---
+
+## 5 Perguntas e respostas sobre o programa com sintaxe correta, porém lógica errada (j+1 => j-1).
+1.
+  P:
+  R: Não é possível testar cada caso individualmente, pois são 65535 casos de entrada.
+2.
+  P: Quantos erros apontam para o problema de lógica?
+  R: 4
+3. 
+  P: Quais são?
+  R: -29999; 29999; -30000; e 30000
