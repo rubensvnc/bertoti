@@ -40,3 +40,10 @@
 3. 
   - P: Quais são?
   - R: -29999; 29999; -30000; e 30000
+
+---
+
+## 6 O meu exemplo de biblioteca, com testes autimatizados, escolhida foi a Petshop.
+1. [Classe para a Petshop](java_solutions/Ex6/Petshop.java)
+2. [Classe para o Animal](java_solutions/Ex6/Animal.java)
+3. [Classe para os Testes Automatizados](java_solutions/Ex6/PetshopTest.java)
