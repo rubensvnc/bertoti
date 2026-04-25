@@ -15,7 +15,7 @@ public class LlamaWithToolsApplication {
 	@Bean
     CommandLineRunner run(Assistant assistant) {
 		return args -> {
-			String response = assistant.chat("I'm in Georgia, what should I wear today?");
+			String response = assistant.chat("I want to view the passenger's info");
 			System.out.println("AI Response: " + response);
 		};
 	}

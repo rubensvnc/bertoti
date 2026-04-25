@@ -5,6 +5,8 @@ import dev.langchain4j.service.AiServices;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+
+//TODA CLASSE @CONFIGURATION OBRIGATORIAMENTE TEM QUE TER TODOS OS METODOS COMO @BEAN
 @Configuration
 public class AIConfig {
 
@@ -18,15 +20,14 @@ public class AIConfig {
     }
 
     @Bean
-    public Assistant assistant(OllamaChatModel model, WeatherService weatherService) {
+    public Assistant assistant(OllamaChatModel model, PassageiroService passageiroService) {
         return AiServices.builder(Assistant.class)
                 .chatLanguageModel(model)
-                .tools(weatherService) // O Spring injeta o service aqui automaticamente
+                .tools(passageiroService)
                 .build();
     }
 }
 
-// Interface pode ficar no mesmo pacote
 interface Assistant {
     String chat(String message);
 }
