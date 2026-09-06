@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Supermercado - CRUD Produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h2>Gerenciamento de Produtos</h2>
+
+    <!-- Formulário de Cadastro/Edição -->
+    <form id="produtoForm">
+        <input type="hidden" id="idProduto">
+        <input type="text" id="nome" placeholder="Nome do Produto" required>
+        <input type="number" step="0.01" id="preco" placeholder="Preço" required>
+        <input type="number" id="quantidadeEstoque" placeholder="Estoque" required>
+        <button type="submit">Salvar</button>
+    </form>
+
+    <!-- Tabela de Listagem -->
+    <table border="1">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Preço</th>
+            <th>Estoque</th>
+            <th>Ações</th>
+        </tr>
+        </thead>
+        <tbody id="tabelaProdutos">
+        <!-- Preenchido via JavaScript -->
+        </tbody>
+    </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
